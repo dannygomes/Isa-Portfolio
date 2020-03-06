@@ -11,14 +11,18 @@ html {
 }
 
 body {
+    position: relative;
     margin: 0;
-font-family: 'Kayak Sans Regular';
+    font-family: 'Kayak Sans Regular';
+    width: 100%;
+    overflow: hidden;
+
 }
 
 nav {
     display: none;
 }
-s
+
 .container {
     margin: 3rem 0;
 }
@@ -81,11 +85,12 @@ s
     display: flex;
 }
 
-
 #nihao-background {
     position: absolute;
+    display: block;
+    margin: 0;
     font-size: 20rem;
-    top: -16rem;
+    top: 3rem;
     left: 3rem;
     color: rgba(0, 0, 0, .05);
     line-height: 20rem;
